@@ -1,0 +1,116 @@
+div.section_1{
+    height: 400px;
+    width: 100%;
+    background: url("/image/gsxw.png") center center;
+    background-size: auto 100%;
+}
+div.Com_1{
+    background: url("/image/gsxw.png") center center;
+}
+div.section_1 div h1 {
+    font-size: 26px;
+    color: #fff;
+    padding-top: 300px;
+    padding-left: 120px;
+}
+div.conts{
+    width: 1200px;
+    margin: 0 auto;
+}
+div.Com_3 {
+    background: #f7f9fa;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+/*发展历史*/
+.History{
+	width:100%;
+	/* background: #edf2f5;
+	padding-top:40px;
+	padding-bottom:40px; */
+	overflow: hidden;
+}
+
+.History .news_top{
+	width: 100% !important;
+	margin-bottom: 40px !important;
+}
+.advantage .news_top{
+	width: 100% !important;
+	margin-bottom: 40px !important;
+}
+.History,.advantage .news-title{
+	font-weight: 100;
+	
+}
+.Historybox{
+	width: 1140px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+	padding-bottom:52px;
+}
+.Historybox .line{
+	/* width: 5px;
+	height: 100%;
+	background: #0e6cbd;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%); */
+}
+.Historylist{
+	width: 568px;
+	height: 216px;
+	background: #fff;
+	position: relative;
+	padding: 30px;
+	box-sizing: border-box;
+}
+.listone{
+	float: left;
+}
+.listtwo{
+	float: right;
+	margin-top: 150px;
+	margin-right: 5px;
+}
+.listthree{
+	float: left;
+	margin-top: 150px;
+}
+.Historylist .one{
+	width: 104px;
+	height: 104px;
+	position: absolute;
+	right: -52px;
+	bottom: -52px;
+	line-height: 104px;
+	text-align: center;
+	background: #0e6cbd;
+	color: #fff;
+	border-radius: 50%;
+}
+.Historylist .one img{
+    position: absolute;
+    top: 104px;
+    right: 75px;
+}
+.Historylist .two{
+	width: 104px;
+	height: 104px;
+	position: absolute;
+	left: -52px;
+	bottom: -52px;
+	line-height: 104px;
+	text-align: center;
+	background: #0e6cbd;
+	color: #fff;
+	border-radius: 50%;
+}
+.Historylist .two img{
+    position: absolute;
+    top: 104px;
+    right: -56px;
+}

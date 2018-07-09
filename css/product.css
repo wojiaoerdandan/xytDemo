@@ -1,0 +1,141 @@
+div.section_1{
+    height: 350px;
+    width: 100%;
+    background: url("/image/product.jpg") center center;
+    background-size: auto 100%;
+}
+div.Com_1{
+    background: url("/image/product.jpg") center center;
+}
+div.section_1 div h1 {
+    font-size: 26px;
+    color: #fff;
+    padding-top: 300px;
+    padding-left: 120px;
+}
+div.conts{
+    width: 1200px;
+    margin: 0 auto;
+}
+div.Com_2 ul li.productCheck{
+    display: inline-block;
+    position: relative;
+}
+
+label {font-size:12px;cursor:pointer;}
+label i {font-size:12px;font-style:normal;display:inline-block;width:12px;height:12px;text-align:center;line-height:12px;color:#fff;vertical-align:middle;margin:-2px 2px 1px 0px;border:#999 1px solid;}
+input[type="checkbox"],input[type="radio"] {display:none;}
+input[type="radio"] + i {border-radius:7px;}
+input[type="checkbox"]:checked + i,input[type="radio"]:checked + i {background:#fff;color:#000;}
+input[type="checkbox"]:disabled + i,input[type="radio"]:disabled + i {border-color:#fff;}
+input[type="checkbox"]:checked:disabled + i,input[type="radio"]:checked:disabled + i {background:#fff;}
+div.Com_3 {
+    background: #f7f9fa;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+div.Com_3 div.conts div.shzrList{
+    width: 100%;
+    height: 457px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+div.Com_3 div.conts div.shzrList div.ContL,div.Com_3 div.conts div.shzrList div.ContR{
+    width:50%;
+    height: 457px;
+    display: inline-block;
+    float: left;
+    text-align: center;
+}
+div.Com_3 div.conts div.shzrList div.ContR{
+    background:#fff;
+}
+div.Com_3 div.conts div.shzrList div.ContR p{
+    padding:0 45px;
+    line-height: 30px;
+}
+div.Com_3 div.conts div.shzrList div.ContR h2{
+    color: #2771b7;
+    font-size: 30px;
+    padding:50px 0 27px 0;
+}
+
+
+div.Com_3 div.conts ul li{
+    width: 100%;
+    background: #fff;
+    height: 180px;
+}
+div.Com_3 div.conts ul li dl {
+    height: 100%;
+}
+div.Com_3 div.conts ul li dl dt{
+    width: 296px;
+    height: 100%;
+    display: inline-block;
+    background: red;
+    float: left;
+}
+div.Com_3 div.conts ul li dl dd {
+    display: inline-block;
+    width: 67%;
+    padding:0 4%;
+}
+div.Com_3 div.conts ul li dl dd h3{
+    padding:24px 0 12px 0;
+}
+div.Com_3 div.conts ul li dl dd h4{
+    padding:12px 0 10px 0;
+}
+div.Com_3 div.conts ul li dl dd p{
+    line-height: 22px;
+    color: #a2a2a3;
+}
+ button{
+    width: 84px;
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+    color:#fff;
+    background: red;
+    border:none;
+    float:right;
+}
+
+div.goodsMes{
+    margin-top: 80px;
+}
+div.goodsMes dl dt{
+    width: 454px;
+    height: 257px;
+    background:red;
+    float: left;
+    margin: 0px 0 93px 0;
+}
+div.goodsMes dl dd{
+    padding-left: 20px;
+    display: inline-block;
+    width:60%;
+}
+div.goodsMes dl dd h3{
+    padding-bottom: 25px;
+}
+div.goodsMes dl dd div{
+    padding-top: 16px;
+    padding-bottom: 18px;
+    overflow: hidden;
+}
+div.goodsMes dl dd div button{
+    float: left;
+}
+div.goodsMes dl dd div span{
+    line-height: 40px;
+    padding-left: 30px;
+    color: #2a70b8;
+}
+div.goodsMes dl dd div span b{
+    font-size: 24px;
+}
+div.goodsMes dl dd p{
+    line-height: 24px;
+}

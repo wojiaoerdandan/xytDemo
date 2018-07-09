@@ -1,0 +1,277 @@
+/*第一部分*/
+.topcont{
+	width: 100%;
+	height: 500px;
+	background: url("/image/zjxyt.png") center center;
+	margin-bottom: 300px;
+	position: relative;
+}
+.topcontBox{
+	position: absolute;
+	width: 1200px;
+	height: 422px;
+	left: 50%;
+	/* transform: translate(-50%); */
+	margin-left: -600px;
+	bottom: -211px;
+	box-shadow: 6px 0px 25px 7px rgba(51,51,51,0.2);
+	background: #fff;
+	padding: 65px;
+	box-sizing: border-box;
+}
+.topcontLeft{
+	float: left;
+	width: 48%;
+}
+.topcontLeft h1{
+	color: #0E6CBD;
+	font-size: 46px;
+}
+.topcontLeft p{
+	margin-top: 55px;
+	color: #333;
+	font-size: 14px;
+	line-height: 25px;
+}
+.topcontRight{
+	float: right;
+	width: 48%;
+	height: 100%;
+	background: #0558AB;
+}
+.topcontRight img{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+/*发展历史*/
+.History{
+	width:100%;
+	background: #edf2f5;
+	padding-top:40px;
+	padding-bottom:40px;
+	overflow: hidden;
+}
+
+.History .news_top{
+	width: 100% !important;
+	margin-bottom: 40px !important;
+}
+.advantage .news_top{
+	width: 100% !important;
+	margin-bottom: 40px !important;
+}
+.History,.advantage .news-title{
+	font-weight: 100;
+	
+}
+.Historybox{
+	width: 1140px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+	padding-bottom:52px;
+}
+.Historybox .line{
+	width: 5px;
+	height: 100%;
+	background: #0e6cbd;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%);
+}
+.Historylist{
+	width: 568px;
+	height: 216px;
+	background: #fff;
+	position: relative;
+	padding: 30px;
+	box-sizing: border-box;
+}
+.listone{
+	float: left;
+}
+.listtwo{
+	float: right;
+	margin-top: 150px;
+	margin-right: 5px;
+}
+.listthree{
+	float: left;
+	margin-top: 150px;
+}
+.Historylist .one{
+	width: 104px;
+	height: 104px;
+	position: absolute;
+	right: -52px;
+	bottom: -52px;
+	line-height: 104px;
+	text-align: center;
+	background: #0e6cbd;
+	color: #fff;
+	border-radius: 50%;
+}
+.Historylist .two{
+	width: 104px;
+	height: 104px;
+	position: absolute;
+	left: -52px;
+	bottom: -52px;
+	line-height: 104px;
+	text-align: center;
+	background: #0e6cbd;
+	color: #fff;
+	border-radius: 50%;
+}
+.htit{
+	font-size: 18px;
+	color: #000000;
+	position: relative;
+}
+.hline{
+	position: absolute;
+	width:66px;
+	height: 1px;
+	background: #e1f2f5;
+	bottom: -15px;
+	left: 0;
+}
+.htext{
+	margin-top: 38px;
+	color: #e6e6e7;
+}
+.hright{
+	float: right;
+}
+.hliner{
+	position: absolute;
+	width:66px;
+	height: 1px;
+	background: #e1f2f5;
+	bottom: -15px;
+	right: 0;
+}
+/*我们的优势*/
+.advantage{
+	width:100%;
+	padding-top:40px;
+	padding-bottom:40px;
+	overflow: hidden;
+}
+.OurAdvRT{
+	width: 100%;
+	height: 322px;
+	background: url("/image/L.png") center center;
+	background-size: 100% 100%;
+	position: relative;
+}
+.OurAdvRs{
+	background: url("/image/R.png") center center;
+}
+.OurAdvRT-mark{
+	width: 410px;
+	height: 100%;
+	background: #000000;
+	opacity: 0.6;
+	position: absolute;
+	z-index: 11;
+	right: 0;
+}
+.OurAdvRT-box{
+	width: 410px;
+	height: 100%;
+	position: absolute;
+	right: 0;
+	z-index: 12;
+}
+.OurAdvRT-box .tit{
+	font-size: 30px;
+	color: #fff;
+	text-align: center;
+	margin-top: 50px;
+}
+.OurAdvRT-box .titcont{
+	font-size: 16px;
+	color: #fff;
+	width: 320px;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+.OurAdvRB{
+	margin-top: 20px;
+	height: 264px;
+}
+.OurAdvRB .OurAdvRT-mark{
+	left: 0;
+}
+.OurAdvRB .OurAdvRT-box{
+	left: 0;
+}
+/*信义为本 优势经营开始*/
+.productContL{
+	width: 100% !important;
+	/* background: #000 !important; */
+	padding-left: 50px !important;
+	padding-top: 60px !important;
+	box-sizing: border-box;
+}
+
+.productContL .tittop,.titexplain{
+	font-size: 26px !important;
+	color: #fff !important;
+}
+.productContL  .titexplain{
+	margin-top: 20px !important;
+}
+.productContL  .titcont{
+	line-height: 42px !important;
+	font-size: 16px !important;
+	color: #fff !important;
+	margin-top: 45px !important;
+}
+.tabIndex{
+	background: #e5e5e5;
+	color: #000;
+	font-size: 30px;
+}
+ul.tabIndex li{
+	width: 33.33% !important;
+	border: none;
+}
+ul.tabIndex li.on dl dd {
+    color: #fff;
+}
+ul.tabIndex li.on{
+    background: #0e6cbd;
+}
+
+ul.tabIndex li dl dt{
+	height: 30px;
+	padding-bottom: 20px;
+}
+ul.tabIndex li dl dt img{
+	display: inline-block;
+	width:40px;
+	
+}
+ul.tabIndex li dl{
+	margin-top: 16px;
+}
+ul.tabIndex li{
+	height: 100px;
+}
+ul.tabIndex li dl dd{
+	padding: 0px;
+	font-size: 16px;
+}
+div.tabCont div.product_box1{
+    background: url("/image/qy_01.png") no-repeat center center
+}
+div.tabCont div.product_box2{
+    background: url("/image/qy_04.png") no-repeat center center
+}
+div.tabCont div.product_box3{
+    background: url("/image/qy_07.png") no-repeat center center
+}

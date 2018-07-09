@@ -1,0 +1,40 @@
+.bot-maxbox{ width:100%; height:auto; overflow:hidden; background:#292929; padding-bottom:38px;}
+.bot-box{ width:1200px; height:auto; overflow:hidden; padding-top:24px;margin: 0 auto;}
+.bot-nav{ width:100px; height:auto; overflow:hidden;  padding-right:50px;}
+.bot-nav p{ width:100%; height:63px; line-height:63px; font-size:18px; color:#ffffff; overflow:hidden;}
+.bot-nav a{ width:100%; height:30px; line-height:30px; display:block; overflow:hidden; font-size:12px; color:#a09f9f;}
+
+.bot-line{ height:270px; width:0; border-left:1px solid #212020; border-right:1px solid #353535; margin-top:20px; margin-left:20px;}
+
+.bot-add{ width:310px; padding-left:60px; overflow:hidden;}
+.bot-addt{ width:100%; height:63px; line-height:63px; font-size:18px; color:#ffffff; overflow:hidden;}
+.bot-addb{ width:100%; height:auto; line-height:36px; overflow:hidden; font-size:14px; color:#737373; overflow:hidden;}
+
+.ewma-box{ width:166px; height:166px; padding-right:20px; padding-top:42px;color:#fff;}
+.ewma-box p {
+   padding:10px 0;
+   font-size: 20px;
+}
+div.CopyRightBox{
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color:#fff;
+    background: #1c1c1c;
+    font-size: 14px;
+}
+
+
+/*---- Patchs---- */
+.fl { float:left;}		
+.fr { float:right;}		
+.fn { float:none;}
+.cl { clear:left;}
+.cr { clear:right;}
+.cb { clear:both;}
+.tl { text-align:left;} 
+.tr { text-align:right;}
+.tc { text-align:center;}
+li{ list-style:none; vertical-align:bottom}
+
+/*---- end Patchs---- */

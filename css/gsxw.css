@@ -1,0 +1,65 @@
+div.section_1{
+    height: 400px;
+    width: 100%;
+    background: url("/image/gsxw.png") center center;
+    background-size: auto 100%;
+}
+div.Com_1{
+    background: url("/image/gsxw.png") center center;
+}
+div.section_1 div h1 {
+    font-size: 26px;
+    color: #fff;
+    padding-top: 300px;
+    padding-left: 120px;
+}
+div.conts{
+    width: 1200px;
+    margin: 0 auto;
+}
+div.Com_3 {
+    background: #f7f9fa;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+div.Com_3 ul.ComnewsList li{
+    width: 30%;
+    height: 400px;
+    margin:0 1%;
+    margin-bottom: 20px;
+    background: #fff;
+    display: inline-block;
+}
+div.Com_3 div.conts ul.ComnewsList li dl {
+    padding:0 36px;
+}
+div.Com_3 div.conts ul.ComnewsList li dl dd p.times{
+    padding-top:40px;
+    padding-bottom: 34px;
+}
+div.Com_3 div.conts ul.ComnewsList li.active dl dd h4{
+    color:#2771b7;
+}
+div.Com_3 div.conts ul.ComnewsList li dl dd h4{
+    color: #000;
+    font-size: 24px;
+    line-height: 34px;
+    padding-bottom: 28px;
+}
+div.Com_3 div.conts ul.ComnewsList li dl dd p.content{
+    line-height: 26px;
+}
+div.Com_3 div.conts ul.ComnewsList li.active dl dd a.LookDetail{
+    background: #2771b7;
+}
+div.Com_3 div.conts ul.ComnewsList li dl dd a.LookDetail{
+    display: inline-block;
+    width: 93px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background: #818485;
+    color:#fff;
+    float: right;
+    margin-top: 30px;
+}

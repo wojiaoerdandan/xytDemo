@@ -1,0 +1,143 @@
+div.section_1{
+    height: 400px;
+    width: 100%;
+    background: url("/image/aboutTopBg.png") center center;
+    background-size: auto 100%;
+}
+div.Com_1{
+    background: url("/image/com.png") center center;
+}
+div.conts{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+div.section_1 div h1{
+    font-size: 26px;
+    color: #0558ab;
+    padding-top: 300px;
+    padding-left: 120px;
+}
+div.Com_1 div h1{
+    color:#fff;
+}
+
+div.section_2{
+    height: 120px;
+    background: #e0e1e2;
+
+}
+div.section_2 dl {
+    display: inline-block;
+    padding-top: 26px;
+    padding-left: 20px;
+}
+div.section_2 dl dt{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+div.section_2 dl dt img{
+    width: 100%;
+    height: 100%;
+}
+div.section_2 dl dd{
+    display: inline-block;
+    float: right;
+   padding-top: 10px;
+   line-height: 18px;
+   padding-left: 26px;
+   text-align: left;
+}
+div.section_2 dl dd p{
+    width: 160px;
+    color: #818385;
+}
+div.Const{
+    text-align: center;
+}
+div.Com_2{
+    height: 33px;
+}
+
+div.section_3 {
+    padding-bottom: 30px;
+    box-shadow: 0px 0px 0px 0px 
+        rgba(166, 165, 165, 0.75);
+    margin-top: 50px;
+    overflow: hidden;
+}
+div.section_3 div.FormBox{
+    width: 40%;
+    /* height: 400px; */
+    float: left;
+    padding:30px 40px 60px 40px;
+    background-color: #f9fbfd;
+}
+div.section_3 div.FormBox input{
+    width: 330px;
+    height: 25px;
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+div.section_3 div.FormBox textarea{
+    width: 330px;
+    height: 178px;
+    
+}
+
+div.section_3   div.ConstMes{
+    width: 53%;
+    height: 370px;
+    float: right;
+    display: inline-block;
+    background-color: rgba(67, 169, 246, 0.53);
+    color:#fff;
+    line-height: 28px;
+}
+div.section_3   div.ConstMes p {
+    font-size: 16px;
+    padding-left: 20px;
+}
+div.section_3   div.ConstMes h1{
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+div.Com_3{
+    background: #f7f9fa;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+div.Com_3 ul.newsList{
+    width: 100%;
+}
+div.Com_3 ul.newsList li{
+    margin-bottom: 20px;
+    height: 200px;
+    background: #fff;
+    padding: 0 24px;
+}
+div.Com_3 ul.newsList li dl dd {
+    display: inline-block;
+    width: 80%;
+    float: left;
+}
+div.Com_3 ul.newsList li dl dd p.times{
+    padding: 16px 0 22px 0px;
+}
+div.Com_3 ul.newsList li dl dd h4{
+    margin-bottom: 34px;
+}
+div.Com_3 ul.newsList li.active dl dd h4{
+    color: #2771b7;
+}
+div.Com_3 ul.newsList li dl dt{
+    width: 160px;
+    height: 94px;
+    margin-top: 36px;
+    margin-left: 54px;
+    display: inline-block;
+    background:#666;
+}

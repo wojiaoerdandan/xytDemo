@@ -1,0 +1,10 @@
+index.html 首页
+zjxyt.html 走进信义通
+gsxw.html 新闻中心
+shzr.html 社会责任
+dynamic.html 行业动态
+about.html 关于我们
+jrwm.html 加入我们（底部菜单的人才招聘）
+slxyt.html 实力信义通
+qywh.html 企业文化
+fzlc.html 发展历程
