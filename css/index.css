@@ -83,20 +83,31 @@ ul.tabIndex li{
 	width: 24.8%;
 	height: 179px;
 	text-align: center;
-	border:#aaaaaa solid 1px;
-	border-right: none;
+	/* border-right: 1px solid #f1f1f1; */
+	border-left: 1px solid #f1f1f1;
+	border-top: 4px solid #f1f1f1;
+	/* border:#aaaaaa solid 1px; */
 	float: left;
+}
+ul.tabIndex li a{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+ul.tabIndex li.on{
+	border-top: 4px solid #296fb7;
 }
 ul.tabIndex li.on dl dd{
 	color: #276db6;
 }
 ul.tabIndex li.last{
-	border-right:#aaa solid 1px;
+	border-right: 1px solid #f1f1f1;
 }
 ul.tabIndex li dl dd{
 	padding:46px 0 16px 0;
 	color: #595759;
 	font-weight: bold;
+	font-size: 18px;
 }
 div.tabCont{
 	width: 100%;
@@ -104,26 +115,30 @@ div.tabCont{
 }
 div.tabCont div.product_box{
 	width: 100%;
-	height: 474px;
+	height: 476px;
+	position: relative;
 	/*background: url(/image/tabBg_1.png) no-repeat center center;*/
 }
 div.tabCont div.product_box div.productContL{
 	width: 583px;
-	height: 474px;
+	height: 476px;
+	position: absolute;
+	left: 0px;
 	background: url("../image/tabBg_1.png") no-repeat;
 }
 div.tabCont div.product_box div.productContL h1{
 	color: #ffffff;
 	font-size: 30px;
 	font-family: MicrosoftYaHei;
-	font-weight: normal;
+	font-weight: bold;
 	margin-left: 74px;
 	padding-top: 92px;
+	
 }
 div.tabCont div.product_box div.productContL p{
-	color: #ffffff;
-	font-size: 18px;
-	line-height: 28px;
+	color: #fff;
+    font-size: 13px;
+    line-height: 20px;
 	margin-left: 74px;
 	padding-top: 40px;
 	padding-right:80px;
@@ -161,6 +176,7 @@ div.tabCont div.product_box div.Tel{
 .news_top p.news-title{
 	font:normal 20px/50px "微软雅黑";
 	/*color:#41A76A;*/
+	font-size: 30px;
 }
 
 .news_bottom{

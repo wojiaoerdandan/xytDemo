@@ -60,7 +60,6 @@ div.Com_3 div.conts div.shzrList div.ContR h2{
     padding:50px 0 27px 0;
 }
 
-
 div.Com_3 div.conts ul li{
     width: 100%;
     background: #fff;
@@ -91,26 +90,36 @@ div.Com_3 div.conts ul li dl dd p{
     line-height: 22px;
     color: #a2a2a3;
 }
- button{
+a.Btn{
     width: 84px;
     height: 28px;
     text-align: center;
     line-height: 28px;
     color:#fff;
+    display:block;
     background: red;
     border:none;
     float:right;
 }
+a.BtnL{
+    float: left;
+}
 
 div.goodsMes{
     margin-top: 80px;
+    overflow: hidden;
 }
 div.goodsMes dl dt{
     width: 454px;
     height: 257px;
     background:red;
     float: left;
-    margin: 0px 0 93px 0;
+    margin: 0px 0 50px 0;
+}
+div.goodsMes dl dt img{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
 }
 div.goodsMes dl dd{
     padding-left: 20px;
@@ -138,4 +147,90 @@ div.goodsMes dl dd div span b{
 }
 div.goodsMes dl dd p{
     line-height: 24px;
+}
+
+/*goods详情说明tab*/
+div.product_box{
+    margin-bottom: 36px;
+}
+div.product_box h1{
+    font-size: 16px;
+    height: 46px;
+}
+.tabIndexF{
+   height: 60px;
+   background:#296fb7;
+   width: 100%;
+}
+.tabIndexF[data-fixed="fixed"]{
+    position: fixed;
+    position: static\0;
+    top:0;
+    left: 0;
+    margin: 0;
+}
+ul.tabIndexF li a{
+   color:#fff!important;
+}
+div.slideTxtBox{
+    width: 1200px;
+}
+div.slideTxtBox ul {
+    width: 100%;
+    border-bottom: #aaacad solid 1px;
+    margin-bottom: 40px;
+}
+div.slideTxtBox ul li{
+    display: inline-block;
+}
+div.slideTxtBox ul li a{
+    display: block;
+    width: 240px;
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+    line-height: 58px;
+    border-bottom: 2px solid transparent;
+}
+div.slideTxtBox ul li.on a{
+    border-bottom: 2px solid #2a70b8;
+    color:#2a70b8;
+}
+
+div.TabBox table.goods{
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+div.TabBox table.goods tbody tr td,table.goods thead tr th{
+    padding: 15px 0 15px 22px;
+    border:#ebebeb solid 1px;
+}
+div.TabBox table.goods thead tr{
+    background:#f4f5f6;
+}
+div.TabBox table.goods tbody tr td.TitMes{
+    width: 18%;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    font-weight: bold;
+    color:#6f6d6f;
+}
+div.TabBox table.goods tbody tr td{
+    width: 100%; 
+}
+div.TabBox table.goods tbody tr td.detail{
+    color:#a4a2a4;
+}
+
+ol.QuesList{
+    padding-left: 70px;
+}
+ol.QuesList li{
+    line-height: 30px;
+}
+ol.QuesList li p{
+    color:red;
+    font-weight: bold;
 }

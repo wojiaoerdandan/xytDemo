@@ -108,6 +108,8 @@
 	right: -52px;
 	bottom: -52px;
 	line-height: 104px;
+	font-weight: bold;
+    font-size: 16px;
 	text-align: center;
 	background: #0e6cbd;
 	color: #fff;
@@ -120,6 +122,8 @@
 	left: -52px;
 	bottom: -52px;
 	line-height: 104px;
+	font-weight: bold;
+    font-size: 16px;
 	text-align: center;
 	background: #0e6cbd;
 	color: #fff;
@@ -129,6 +133,7 @@
 	font-size: 18px;
 	color: #000000;
 	position: relative;
+	font-weight: bold;
 }
 .hline{
 	position: absolute;
@@ -140,7 +145,7 @@
 }
 .htext{
 	margin-top: 38px;
-	color: #e6e6e7;
+	color: #818485;]
 }
 .hright{
 	float: right;

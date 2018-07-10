@@ -24,6 +24,24 @@ div.Com_3 {
 }
 
 /*发展历史*/
+.hline{
+	position: absolute;
+	width:66px;
+	height: 1px;
+	background: #e1f2f5;
+	bottom: -15px;
+	left: 0;
+}
+.htit{
+	font-size: 18px;
+	color: #000000;
+	position: relative;
+	font-weight: bold;
+}
+.htext {
+    margin-top: 38px;
+    color: #818485;
+}
 .History{
 	width:100%;
 	/* background: #edf2f5;
@@ -87,6 +105,8 @@ div.Com_3 {
 	right: -52px;
 	bottom: -52px;
 	line-height: 104px;
+	font-weight: bold;
+	font-size: 16px;
 	text-align: center;
 	background: #0e6cbd;
 	color: #fff;
@@ -94,8 +114,8 @@ div.Com_3 {
 }
 .Historylist .one img{
     position: absolute;
-    top: 104px;
-    right: 75px;
+	top: 84px;
+    right: 85px;
 }
 .Historylist .two{
 	width: 104px;
@@ -103,6 +123,8 @@ div.Com_3 {
 	position: absolute;
 	left: -52px;
 	bottom: -52px;
+	font-weight: bold;
+	font-size: 16px;
 	line-height: 104px;
 	text-align: center;
 	background: #0e6cbd;
@@ -111,6 +133,6 @@ div.Com_3 {
 }
 .Historylist .two img{
     position: absolute;
-    top: 104px;
-    right: -56px;
+	top: 94px;
+    right: -84px;
 }

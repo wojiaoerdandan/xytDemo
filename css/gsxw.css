@@ -37,7 +37,7 @@ div.Com_3 div.conts ul.ComnewsList li dl dd p.times{
     padding-top:40px;
     padding-bottom: 34px;
 }
-div.Com_3 div.conts ul.ComnewsList li.active dl dd h4{
+div.Com_3 div.conts ul.ComnewsList li.active dl dd h4,div.Com_3 div.conts ul.ComnewsList li:hover dl dd h4{
     color:#2771b7;
 }
 div.Com_3 div.conts ul.ComnewsList li dl dd h4{
@@ -49,7 +49,7 @@ div.Com_3 div.conts ul.ComnewsList li dl dd h4{
 div.Com_3 div.conts ul.ComnewsList li dl dd p.content{
     line-height: 26px;
 }
-div.Com_3 div.conts ul.ComnewsList li.active dl dd a.LookDetail{
+div.Com_3 div.conts ul.ComnewsList li.active dl dd a.LookDetail,div.Com_3 div.conts ul.ComnewsList li:hover dl dd a.LookDetail{
     background: #2771b7;
 }
 div.Com_3 div.conts ul.ComnewsList li dl dd a.LookDetail{
