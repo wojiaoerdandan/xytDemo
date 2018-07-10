@@ -485,6 +485,7 @@ div.DataShow p{
 div.DataShow  ul li{
 	display: inline-block;
 	margin:0 80px;
+	width: 133px;
 	margin-top: 74px;
 	text-align: center;
 }

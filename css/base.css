@@ -165,13 +165,32 @@ div.w1200{
 	width: 1200px;
 	margin: 0 auto;
 }
-div.productList ul{float: left;width: 240px;margin-left: 26px;}
+div.productList ul{float: left;width: 240px;margin-left: 26px;margin-top: 0px;}
 div.productList ul:first-child{margin-left: 0;width:400px;}
 div.productList ul li{float: none;background: none;height: auto;overflow: hidden;padding-top: 8px;}
 div.productList ul li p{height: auto;overflow: hidden;text-align: left;}
 div.productList ul li a{display: inline-block;line-height: normal;font-weight: normal;padding: 0;}
-div.productList ul li .img-box{width: 240px;height: 120px;overflow: hidden;margin-bottom: 3px;}
-div.productList ul:first-child li .img-box{margin-bottom: 5px;width:400px;}
+div.productList ul li .img-box{width: 240px;height: 120px;overflow: hidden;margin-bottom: 3px;line-height: 120px}
+div.productList ul li .img-box a b{
+	font-weight: 800;
+	font-size: 24px;
+	color:#000;
+}
+div.productList ul li .img-box a.More{
+	padding-right: 20px;
+	padding-top: 10px;
+	font-size: 14px;
+	font-weight: bold;
+	color:#2b2a2a;
+}
+div.productList ul:first-child li .img-box{margin-bottom: 5px;width:400px;text-align: center;line-height: 120px;}
+div.productList ul li img{
+	position: absolute;
+    width: 100%;
+    display: inline-block;
+    left: 0;
+    z-index: -1;
+}
 .hover img{display: block;transition: all 0.5s ease-in-out 0s;-moz-transition: all 0.5s ease-in-out 0s;-webkit-transition: all 0.5s ease-in-out 0s;-o-transition: all 0.5s ease-in-out 0s;-ms-transition:all 0.5s ease-in-out 0s;}
 .hover img:hover{transform: matrix(1.04, 0, 0, 1.04, 0, 0);-webkit-transform: matrix(1.04, 0, 0, 1.04, 0, 0);-o-transform: matrix(1.04, 0, 0, 1.04, 0, 0);-moz-transform: matrix(1.04, 0, 0, 1.04, 0, 0);-ms-transform: matrix(1.04, 0, 0, 1.04, 0, 0);}
 div.productList ul li h2{font-weight: bold;font-size: 18px;color: #333;padding-bottom: 18px;}
