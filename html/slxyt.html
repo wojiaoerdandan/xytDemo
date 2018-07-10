@@ -295,21 +295,21 @@
             <dl>
                 <dt><img src="/image/slIcon_01.png" alt=""></dt>
                 <dd>
-                    <h3>18年</h3>
+                    <h3><span class="counter">18</span>年</h3>
                     <h3>加工经验</h3>
                 </dd>
             </dl>
             <dl>
                 <dt><img src="/image/slIcon_03.png" alt=""></dt>
                 <dd>
-                    <h3>1200吨</h3>
+                    <h3><span class="counter">1200</span>吨</h3>
                     <h3>库存量</h3>
                 </dd>
             </dl>
             <dl>
                 <dt><img src="/image/slIcon_05.png" alt=""></dt>
                 <dd>
-                    <h3>1500家</h3>
+                    <h3><span class="counter">1500</span>家</h3>
                     <h3>客户见证</h3>
                 </dd>
             </dl>
@@ -339,7 +339,7 @@
     <div class="section_7">
          <div class="conts">
              <ul>
-                 <li>
+                 <li class="help">
                      <h3>售前咨询团队</h3>
                      <div>
                          <img src="/image/ourIcon_01.png" alt="">
@@ -349,7 +349,7 @@
                         确保在第一时间为您提供优质、高效的售前咨询服务。
                      </p>
                  </li>
-                 <li>
+                 <li class="help">
                     <h3>售前咨询团队</h3>
                     <div>
                         <img src="/image/ourIcon_03.png" alt="">
@@ -358,7 +358,7 @@
                         高素质、经验丰富的销售经理在掌握您的需求后，将为您提供专业的产品建议和报价方案。
                     </p>
                  </li>
-                 <li>
+                 <li class="help">
                     <h3>售前咨询团队</h3>
                     <div>
                         <img src="/image/ourIcon_05.png" alt="">
@@ -368,7 +368,7 @@
                         做到让客户放心买铝板。
                     </p>
                  </li>
-                 <li>
+                 <li class="help">
                     <h3>售前咨询团队</h3>
                     <div>
                         <img src="/image/ourIcon_07.png" alt="">
@@ -436,6 +436,16 @@
 
     <!--底部结束-->
 </body>
-<script src="../js/jquery-1.9.1.min.js"></script>
+<script src="/js/jquery-1.9.1.min.js"></script>
 <script src="/js/base/common.js"></script>
+<script src="/js/base/jquery.waypoints.min.js"></script>
+<script src="/js/base/jquery.countup.min.js"></script>
+<script src="https://scrollrevealjs.org/js/scrollreveal.min.js"></script>
+<script>
+    window.sr = ScrollReveal();
+    sr.reveal('.shzrList',{origin:"bottom",distance:"20px"});
+    sr.reveal('.help',{origin:"left",distance:"20px"});
+    //数字计数
+	$('.counter').countUp();
+</script>
 </html>
