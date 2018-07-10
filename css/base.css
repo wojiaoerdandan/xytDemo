@@ -8,6 +8,9 @@ input,textarea{
 ul,ol li{
 	list-style: none;
 }
+*{
+	font-family: "微软雅黑";
+}
 	
 body{
 	font-family:"SimSun","宋体","ArialNarrow","Microsoft YaHei", Arial, Lucida, Verdana, Helvetica, sans-serif;

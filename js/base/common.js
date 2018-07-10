@@ -13,4 +13,15 @@ $(function(){
 	$(".back-top .js-back-top").click(function(){
 		$('html,body').animate({scrollTop: '0'}, 800);
 	});
+
+	//产品划过
+	$("li.DownBox").on("mouseover", function () {
+		$("div.productList").show();
+	})
+	$("div.header").on("mouseleave", function () {
+		$("div.productList").slideUp();
+	})
+	$("li.DownBox").siblings().on("mouseout", function () {
+		$("div.productList").slideUp();
+	})
 })

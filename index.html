@@ -201,7 +201,7 @@
 				<div class="bd">
 					<ul>
 						<li>
-							<a href="javascript:void(0)" target="_blank">
+							<a href="javascript:void(0)"  target="_blank">
 								<img src="image/banner_1.png" />
 							</a>
 						</li>
@@ -323,16 +323,12 @@
 			</div>
 		</div>
 	</div>
-	<!--产品中心 
-            
-            end-->
-
-
-	<!--我们的优势s-->
+	<!--产品中心 end-->
+    <!--我们的优势s-->
 	<div class="panel">
 		<div class="news">
 			<div class="news_top">
-				<p class="news-title">我们的优势</p>
+				<p class="news-title"><a href="/html/slxyt.html">我们的优势</a></p>
 				<p>在与客户合作过程中，公司始终恪守诚信，勇于担当，努力维护公平竞争、运行良好的市场秩序。</p>
 			</div>
 			<div class="OurAdv">
@@ -372,22 +368,28 @@
 			<ul class="ComMes">
 				<li>
 					<div>
-						<img src="/image/test.jpg" alt="372*210">
+						<a href="javascript:void(0)" class="hover">
+                            <img src="/image/test.jpg" alt="372*210">
+						</a>
 					</div>
 					<p class="ComMestitle">2018年中国国际电池技术展览会，中铝集团与您不见不散</p>
 					<p class="time">2018-01-01</p>
 				</li>
 				<li class="centerLi">
 					<div>
-						<img src="/image/test.jpg" alt="372*210">
+						<a href="javascript:void(0)" class="hover">
+							<img src="/image/test.jpg" alt="372*210">
+						</a>
 					</div>
 					<p class="ComMestitle">2018年中国国际电池技术展览会，中铝集团与您不见不散</p>
 					<p class="time">2018-01-01</p>
 				</li>
 				<li>
 					<div>
-						<img src="/image/test.jpg" alt="372*210">
-					</div>
+						<a href="javascript:void(0)" class="hover">
+							<img src="/image/test.jpg" alt="372*210">
+						</a>
+				    </div>
 					<p class="ComMestitle">2018年中国国际电池技术展览会，中铝集团与您不见不散</p>
 					<p class="time">2018-01-01</p>
 				</li>
@@ -498,16 +500,7 @@
 	//tab选项卡
 	$(".slideTxtBox").slide();
 
-	//产品划过
-	$("li.DownBox").on("mouseover", function () {
-		$("div.productList").show();
-	})
-	$("div.header").on("mouseleave", function () {
-		$("div.productList").slideUp();
-	})
-	$("li.DownBox").siblings().on("mouseout", function () {
-		$("div.productList").slideUp();
-	})
+	
 	//导航
 	$(".banner li").hover(function () {
 		$(this).addClass("active").siblings().removeClass("active");
